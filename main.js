@@ -35,7 +35,7 @@ function toggleMobileMenu(){
 
 /*carrito de compra en navbar*/
 const carritoNavbar = document.querySelector('.navbar-shopping-cart');
-const contenidoCarrtitoNavbar = document.querySelector('.product-detail');
+const contenidoCarrtitoNavbar = document.querySelector('#shoppingCartContainer');
 
 carritoNavbar.addEventListener('click', toggleShoppingCart);
 
@@ -69,25 +69,25 @@ productList.push({
 productList.push({
     name: 'Televisor',
     price: 220,
-    image: 'https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?cs=srgb&dl=pexels-lisa-1444416.jpg&fm=jpg'
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'//https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?cs=srgb&dl=pexels-lisa-1444416.jpg&fm=jpg
 });
 
 productList.push({
     name: 'Laptop',
     price: 400,
-    image: 'https://images.pexels.com/photos/18105/pexels-photo.jpg?cs=srgb&dl=pexels-karsten-madsen-18105.jpg&fm=jpg'
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'//https://images.pexels.com/photos/18105/pexels-photo.jpg?cs=srgb&dl=pexels-karsten-madsen-18105.jpg&fm=jpg
 });
 
 productList.push({
     name: 'Celular',
     price: 250,
-    image: 'https://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?cs=srgb&dl=pexels-mateusz-dach-1294886.jpg&fm=jpghttps://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?cs=srgb&dl=pexels-mateusz-dach-1294886.jpg&fm=jpg'
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'//https://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?cs=srgb&dl=pexels-mateusz-dach-1294886.jpg&fm=jpg
 });
 
 productList.push({
     name: 'Guitarra',
     price: 120,
-    image: 'https://images.pexels.com/photos/165971/pexels-photo-165971.jpeg?cs=srgb&dl=pexels-m%C3%A9line-waxx-165971.jpg&fm=jpg'
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'//https://images.pexels.com/photos/165971/pexels-photo-165971.jpeg?cs=srgb&dl=pexels-m%C3%A9line-waxx-165971.jpg&fm=jpg
 });
 
 //  <div class="product-card">
